@@ -1,4 +1,5 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap");
 * {
   --main-color: rgb(96, 205, 165);
 }
@@ -8,6 +9,7 @@
   background-image: url(../imgs/imgs01.png);
   background-position: center;
   background-size: cover;
+  font-family: "Montserrat", sans-serif;
 }
 .homePage .position {
   left: 100px;
@@ -16,4 +18,15 @@
 .homePage .position p {
   line-height: 30px;
   color: var(--main-color);
+  font-family: "Kalnia", serif;
+  margin-top: 20px;
+}
+.homePage .position h5{
+  font-weight: lighter;
+  font-size: 40px !important;
+
+}
+.homePage .position p,
+.homePage .position h5 {
+  letter-spacing: 2px;
 }
