@@ -3,7 +3,12 @@
 * {
   --main-color: rgb(96, 205, 165);
 }
+h2{
+    font-family: "Kalnia", serif;
+    font-size: 35px;
+}
 
+/* Home Page */
 .homePage {
   min-height: 100vh;
   background-image: url(../imgs/imgs01.png);
@@ -21,12 +26,21 @@
   font-family: "Kalnia", serif;
   margin-top: 20px;
 }
-.homePage .position h5{
+.homePage .position h5 {
   font-weight: lighter;
   font-size: 40px !important;
-
 }
 .homePage .position p,
 .homePage .position h5 {
   letter-spacing: 2px;
+}
+
+/* About Page */
+.aboutPage .item h4 {
+  font-family: "Kalnia", serif;
+  font-size: 25px;
+}
+.aboutPage .item p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
