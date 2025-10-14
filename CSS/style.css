@@ -1,0 +1,19 @@
+
+* {
+  --main-color: rgb(96, 205, 165);
+}
+
+.homePage {
+  min-height: 100vh;
+  background-image: url(../imgs/imgs01.png);
+  background-position: center;
+  background-size: cover;
+}
+.homePage .position {
+  left: 100px;
+  top: 100px;
+}
+.homePage .position p {
+  line-height: 30px;
+  color: var(--main-color);
+}
