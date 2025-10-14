@@ -3,9 +3,9 @@
 * {
   --main-color: rgb(96, 205, 165);
 }
-h2{
-    font-family: "Kalnia", serif;
-    font-size: 35px;
+h2 {
+  font-family: "Kalnia", serif;
+  font-size: 35px;
 }
 
 /* Home Page */
@@ -43,4 +43,49 @@ h2{
 .aboutPage .item p {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+}
+
+/* Product Page */
+.productPage {
+  background-color: black;
+  background-image: url(../imgs/imgs06.png);
+  min-height: 100vh;
+  background-repeat: repeat-x;
+}
+.productPage .header h2 {
+  padding: 200px 0;
+}
+.productPage .img1 p,
+.productPage .img2 p {
+  font-size: 25px;
+  margin-bottom: 0;
+  padding: 20px;
+  background: linear-gradient(#0a3f2b, var(--main-color));
+}
+.productPage .img1 {
+  border: 3px solid #2e614e;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+.productPage .img1 .style1 {
+  border-top-left-radius: 70px;
+}
+.productPage .img1 .style-img1 {
+  border-bottom-right-radius: 70px;
+}
+.productPage .img2 {
+  border: 3px solid #2e614e;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+}
+.productPage .img2 .style2 {
+  border-top-right-radius: 70px;
+}
+.productPage .img2 .style-img2 {
+  border-bottom-left-radius: 70px;
+}
+.background {
+  min-height: 16vh;
+  background-image: url(../imgs/imgs06.png);
+  background-repeat: repeat-x;
 }
