@@ -115,3 +115,25 @@ h2 {
 .contactPage button:hover{
   background-color: RGB(38, 164, 118);
 }
+
+/* footer */
+.footer {
+  background-image: url(../imgs/imgs19.png);
+  background-size: cover;
+  min-height: 40vh;
+}
+.footer .img{
+  position: relative;
+  left: 100px;
+  top: 70px;
+}
+.footer .content{
+    font-family: "Montserrat", sans-serif;
+}
+.footer .content p{
+  color: var(--main-color);
+  transition: .5s;
+}
+.footer .content p:hover{
+  color: orange;
+}
