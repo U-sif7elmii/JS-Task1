@@ -92,3 +92,23 @@ h2 {
   background-image: url(../imgs/imgs06.png);
   background-repeat: repeat-x;
 }
+
+/* Contact Page */
+.contactPage form{
+  max-width: 900px;
+}
+.contactPage form label{
+  font-family: "Montserrat", sans-serif;
+  color: rgb(46, 97, 78);
+  font-weight: 700;
+}
+.contactPage form button{
+  background-color: #0a3f2b;
+  color: white;
+  padding: 10px 25px;
+  font-size: 20px;
+  transition: .5s;
+}
+.contactPage form button:hover{
+  background-color: RGB(38, 164, 118);
+}
