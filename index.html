@@ -189,26 +189,28 @@
             </div>
 
 
-            <form action="" class="mx-auto mb-5 pb-5">
+            <form action="" class="mx-auto">
 
                 <label for="name" class="fs-4">Name:</label><br>
-                <input type="text" required id="name" placeholder="Enter your Name..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
+                <input type="text" id="name" placeholder="Enter your Name..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
 
                 <label for="email" class="fs-4">Email:</label><br>
-                <input type="email" required id="email" placeholder="Enter your Email..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
+                <input type="email" id="email" placeholder="Enter your Email..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
 
                 <label for="phone" class="fs-4">Phone:</label><br>
-                <input type="text" required id="phone" placeholder="Enter your Phone..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
+                <input type="text" id="phone" placeholder="Enter your Phone..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
 
                 <label for="sub" class="fs-4">Subject:</label><br>
-                <input type="text" required id="sub" placeholder="Subject..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
+                <input type="text" id="sub" placeholder="Subject..." class="w-100 py-3 px-2 mt-2 mb-3"><br>
 
                 <label for="mes" class="fs-4">Message:</label><br>
-                <textarea name="" id="mes" class="w-100 py-3 px-2 mt-2 mb-3" placeholder="Enter your Message..." ></textarea>
-
-                <button>Sumbit</button>
+                <textarea name="" id="mes" class="w-100 py-3 px-2 mt-2 mb-3"
+                    placeholder="Enter your Message..."></textarea>
 
             </form>
+            <div class="mb-5 pb-5 ms-0 ms-lg-5">
+                <button onclick="checkForm()">Sumbit</button>
+            </div>
 
 
         </div>
