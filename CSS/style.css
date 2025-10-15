@@ -34,6 +34,9 @@ h2 {
 .homePage .position h5 {
   letter-spacing: 2px;
 }
+.homePage ul li a:hover{
+  color: var(--main-color) !important;
+}
 
 /* About Page */
 .aboutPage .item h4 {
