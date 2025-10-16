@@ -37,6 +37,23 @@ h2 {
 .homePage ul li a:hover{
   color: var(--main-color) !important;
 }
+.homePage button{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 25px;
+  padding: 15px 30px;
+  transition: .5s;
+}
+.homePage button:hover{
+  background-color: 
+#2E614E;
+}
 
 /* About Page */
 .aboutPage .item h4 {

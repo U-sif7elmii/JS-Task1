@@ -8,6 +8,14 @@ document.getElementById("homeContent2").innerHTML = `Building success, <br>
 one material, <br>
 at a time`;
 
+function scrollIcon(x,y){
+  window.scrollBy(x,y)
+}
+
+function scrollToDiv(sec){
+  document.getElementById(sec).scrollIntoView()
+}
+
 // About Page
 document.getElementById("aboutContent1").innerHTML = "About Us";
 document.getElementById("aboutContent2").innerHTML = "What We Do?";

@@ -27,16 +27,16 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item ">
                                     <a class="nav-link text-light active" aria-current="page" href="#"
-                                        id="navItem1"></a>
+                                        id="navItem1" onclick="scrollToDiv('aboutPage')"></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#" id="navItem2"></a>
+                                    <a class="nav-link text-light" href="#" id="navItem2" onclick="scrollToDiv('productPage')"></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-light" href="#" id="navItem3"></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#" id="navItem4"></a>
+                                    <a class="nav-link text-light" href="#" id="navItem4" onclick="scrollToDiv('contactPage')"></a>
                                 </li>
                             </ul>
 
@@ -57,11 +57,13 @@
                     </div>
                 </div>
 
+                <button onclick="scrollIcon(0,-1000)"><i class="fa-solid fa-arrow-up"></i></button>
+
             </div>
         </div>
     </div>
 
-    <div class="aboutPage mt-5 text-center">
+    <div class="aboutPage mt-5 text-center" id="aboutPage">
         <div class="container">
 
             <div class="header mt-5 py-lg-5">
@@ -106,7 +108,7 @@
         </div>
     </div>
 
-    <div class="productPage">
+    <div class="productPage" id="productPage">
         <div class="container">
 
             <div class="header text-center text-light">
@@ -181,7 +183,7 @@
         <div class="background"></div>
     </div>
 
-    <div class="contactPage mt-5">
+    <div class="contactPage mt-5" id="contactPage">
         <div class="container">
 
             <div class="header text-center py-5">
